@@ -13,10 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "expect": "^1.20.2",
     "express": "^4.14.0",
+    "lodash": "^4.15.0",
     "mongodb": "^3.1.13",
     "mongoose": "^4.5.9",
-    "expect": "^1.20.2",
     "supertest": "^2.0.0"
   }
 }
