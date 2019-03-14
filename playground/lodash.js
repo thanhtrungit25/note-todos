@@ -1,14 +1,6 @@
 const _ = require("lodash")
-/* pick
-var object = { a: 1, b: "2", c: 3 }
 
-var newObject = _.pick(object, ["a", "c"])
+var objA = { name: "colin", car: "suzuki" }
+var objB = { name: "james", age: 17 }
 
-console.log(object, newObject)
-*/
-
-var object = { a: 1, b: "2", c: 3 }
-
-var newObject = _.pickBy(object, _.isString)
-
-console.log(object, newObject)
+console.log(_.assign(objA, objB))
