@@ -1,7 +1,7 @@
-const { mongoose } = require("./../server/server")
+const { mongoose } = require("./../server/db/mongoose")
 const { Todo } = require("./../server/models/todo")
 
-var id = "5c864a8de62f90ae13eae57f"
+var id = "5c8875681d42ef06977899dc"
 
 Todo.find({ _id: id }).then(todos => {
   console.log("Todos", todos)
